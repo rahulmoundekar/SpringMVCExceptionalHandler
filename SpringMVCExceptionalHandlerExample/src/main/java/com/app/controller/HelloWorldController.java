@@ -1,14 +1,15 @@
-package org.arpit.java2blog.controller;
+package com.app.controller;
 
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
-import org.arpit.java2blog.exception.CustomException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.app.exception.CustomException;
 
 @Controller
 public class HelloWorldController {

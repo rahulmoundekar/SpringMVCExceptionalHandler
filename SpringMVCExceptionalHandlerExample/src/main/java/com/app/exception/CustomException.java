@@ -1,4 +1,4 @@
-package org.arpit.java2blog.exception;
+package com.app.exception;
 
 public class CustomException extends Exception {
 
